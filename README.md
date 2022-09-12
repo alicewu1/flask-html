@@ -7,4 +7,4 @@ This repo aims to:
 Each page contains:
 - static text (e.g., headers or paragraphs) 
 - at least one image (e.g., png, jpeg, etc.) 
-- a button
+- buttons

@@ -4,7 +4,7 @@ url = 'https://www.google.com/'
 
 myHeaders = {'content-type':'html/text'}
 response = requests.get(url, headers=myHeaders)
-resoibse = requests.get(url, headers={'content-type': 'html/text'})
+response = requests.get(url, headers={'content-type': 'html/text'})
 
 response.status_code # 200 is good
 response.json()
