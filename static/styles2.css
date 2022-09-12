@@ -5,7 +5,8 @@ body {
 
 p {
     color: rgb(60, 97, 68);
-    margin-left: 15px;
+    margin-left: 210px;
+    padding: 0px
 }
 
 h1 {
@@ -16,8 +17,8 @@ h1 {
 h2 {
     background-color: rgb(99, 145, 99);
     color: white;
-    margin-left: 10px;
-    margin-right: 450px;
+    margin-left: 200px;
+    margin-right: 10px;
     padding: 5px;
     border:2px white;
     border-radius: 7px;
@@ -26,8 +27,8 @@ h2 {
 h3 {
     background-color: rgba(235, 235, 235, 0.897); 
     color: darkgreen;
-    margin-left: 10px;
-    margin-right: 450px;
+    margin-left: 200px;
+    margin-right: 400px;
     padding: 5px;
     border:2px;
     border-color: rgb(104, 104, 104);
@@ -37,7 +38,8 @@ h3 {
 
 h4{
     color: darkgreen;
-    margin-left: 10px;
+    margin-left: 200px;
+    padding: 0px;
     
 }
 /* this is the code that would style ALL buttons */
@@ -54,4 +56,42 @@ button {
     background-color: black;
     color: white;
     border-color: black;
+}
+
+img {
+    margin: 10px;
+    float: right;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 10%;
+    height: 800px; /* only for demonstration, should be removed */
+    background: rgb(187, 206, 191);
+    padding: 10px;
+    }
+
+    nav ul{
+        list-style-type:none;
+        padding: 0;
+    }
+
+label{
+    margin-left: 100px;
+}
+footer {
+    background-color: darkgreen;
+    padding: 7px;
+    color: white;
+}
+
+li{
+    margin-left: 210px;
+    padding: 5px;
+}
+
+.nav{
+    margin-left: 10px;
 }

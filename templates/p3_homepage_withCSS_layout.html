@@ -2,28 +2,63 @@
 <html lang="en">
     <head>
         <title>Alice</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles2.css') }}">
         <meta charset="UTF-8">
     </head>
+
+
     <body>
         <h1 style="text-align:center;";>
         Hiking With Alice </h1>
-        <h2>About</h2>
-        <p>I started hiking while in university. I made this page to share my favorite trails!</p>
-        <img src="https://highway1roadtrip.com/wp-content/uploads/2018/08/Scenic-Drive.jpg" alt="Big Sur Scenic Highway" style="width:800px;height:300px;">
-        <h3>My Favorite Trails</h3>
-        <p>&#11088;Big Sur Coastal Scenic Highway (Big Sur, CA)</p>
-        <p>&#11088;Muir Woods (SF, CA)</p>
-        <p>&#11088;Delaware Water Gap (NJ)</p>
-        <p>&#11088;Kaaterskill Falls (Catskills Mountains, NY)</p>
-        <p>&#11088;Mount Beacon (Mt. Beacon, NY)</p>
-        <h4>Hiking Resources:</h4>
-        <ul>
+       <section>
+        <nav>
+            <h1>Navigation</h1>
+            <li class="nav">About page</li>
+            <li class="nav">My Favorite Trails</li>
+            <li class="nav">Hiking Resources</li>
+        </nav>
+        <div><h2>About</h2>
+        <p>I started hiking while in university. I made this page to share my favorite trails!</p></div>
+        <img src="https://highway1roadtrip.com/wp-content/uploads/2018/08/Scenic-Drive.jpg" alt="Big Sur Scenic Highway" style="width:400px;height:300px;">
+        </section>
+       
+        <style>
+            
+
+        </style>
+                    
+         <label for="location">Choose a location:</label>
+            <select name="location" id="location">
+            <option value="New York">New York</option>
+            <option value="New Jersey">New Jersey</option>
+            <option value="California">California</option>
+            </select>
+            
+            <h3>My Favorite Trails</h3>
+            <p>&#11088;Big Sur Coastal Scenic Highway (Big Sur, CA)</p>
+            <p>&#11088;Muir Woods (SF, CA)</p>
+            <p>&#11088;Delaware Water Gap (NJ)</p>
+            <p>&#11088;Kaaterskill Falls (Catskills Mountains, NY)</p>
+            <p>&#11088;Mount Beacon (Mt. Beacon, NY)</p>
+            
+            <h4>Hiking Resources:</h4>
+            <ul>
         <li><a href="https://www.alltrails.com/?ref=header">AllTrails Trail Finder</a></li>
         <li><a href="https://www.nps.gov/subjects/trails/hiking-in-parks.htm">U.S. National Park Service</a></li>
-    </ul>
+         </ul> 
 
+        
         <button> View Maps </button>
         <button class="specialButton1"> More Trails</button>
+
+ &nbsp;&nbsp; 
+ 
+        <div>
+        <footer style="text-align:center;">
+            <p1>Copyright 2022 - Alice Wu HHA504 AHI</p1>
+        </footer>    
+        </div>
+        
+
     </body>
 </html>
