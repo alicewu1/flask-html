@@ -1,0 +1,57 @@
+body {
+    background-color: beige;
+    font-family:serif;
+}
+
+p {
+    color: rgb(60, 97, 68);
+    margin-left: 15px;
+}
+
+h1 {
+    color: darkgreen;
+    margin-left: 10px;
+}
+
+h2 {
+    background-color: rgb(99, 145, 99);
+    color: white;
+    margin-left: 10px;
+    margin-right: 450px;
+    padding: 5px;
+    border:2px white;
+    border-radius: 7px;
+}
+
+h3 {
+    background-color: rgba(235, 235, 235, 0.897); 
+    color: darkgreen;
+    margin-left: 10px;
+    margin-right: 450px;
+    padding: 5px;
+    border:2px;
+    border-color: rgb(104, 104, 104);
+    border-style: dotted;
+    border-radius: 7px;
+}
+
+h4{
+    color: darkgreen;
+    margin-left: 10px;
+    
+}
+/* this is the code that would style ALL buttons */
+button {
+    background-color:rgb(231, 183, 161);
+    color: black;
+    border-radius: 7px;
+    border-color: orange;
+    margin-left: 40px;
+}
+
+/* this is create a custom style that will only be applied to a 'class' called specialButton1 */
+.specialButton1 {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
