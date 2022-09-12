@@ -68,7 +68,7 @@ img {
 nav {
     float: left;
     width: 10%;
-    height: 800px; /* only for demonstration, should be removed */
+    height: 790px; /* only for demonstration, should be removed */
     background: rgb(187, 206, 191);
     padding: 10px;
     }
@@ -80,6 +80,7 @@ nav {
 
 label{
     margin-left: 100px;
+    padding: 10px;
 }
 footer {
     background-color: darkgreen;
@@ -94,4 +95,9 @@ li{
 
 .nav{
     margin-left: 10px;
+}
+
+h5{
+    padding: 130px;
+
 }
